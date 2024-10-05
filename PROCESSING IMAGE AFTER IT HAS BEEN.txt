@@ -1,0 +1,30 @@
+PROCESSING IMAGE AFTER IT HAS BEEN TAKEN
+-----------------------------------------
+
+- After the image has been taken using the esp32 camera it has to be processed. 
+- The image will be prepared using OpenCV before sending it to the Machine Learning Model for more processing. 
+- The goal for today is to add OpenCV so that it can crop the image and prepare it for processing. 
+
+- Change of plans I will use the server to process the image. 
+- On the Django server that is where I will set up OpenCV. 
+- I will also add the AI there. 
+- This is so that the app is small and not expensive to run on some phones. This is so that anyone with a moderate phone can still download the app.
+
+- With the app I want to do the following :
+	- Submit the form that will be used when getting the results.
+	- The image is part of the form. 
+	- Display the statistics for the cholera cases in Zambia. 
+		- For each month the number of positive cases , the deaths and the cures .
+	- Send alerts to the users of new cases in specific areas. 
+	- Daily update that will be displayed on the frontend. 
+	- A blog. 
+		- One picture.	
+		- A file to download 
+		- A brief description
+
+- The models have been created. 
+- Next step is to serialize the data. 
+
+- The backend has been created. 
+- The data has been serialized. 
+- Next step is to add OpenCV 

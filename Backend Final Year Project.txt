@@ -1,0 +1,13 @@
+Things that I need to do for the backend. 
+-----------------------------------------
+
+- Create the models (DONE)
+- Serialize the models (DONE)
+- Add authentication (DONE)
+- Add OpenCV to process the image after the Report Form has been submitted. (DONE)
+- After it has been processed an AI model has to analyze the image and determine the result.
+	- Instead of using the AI model to analyze the results I will use OpenCV. (DONE) 
+- The results will be stored in the Results model which will then be displayed to the user. 
+- Create a dashboard for the super admin , the admin and the general workers using different groups. 
+- Each group will have its own permissions. 
+- Use a different database . Use MySQL.
