@@ -91,7 +91,7 @@ class ReportFormCreateView(generics.CreateAPIView):
         else:
             return 'Invalid'
         
-    # get the return value of the determine_result function and save it to the result field of report form model. 
+ 
     def results(self, avg_color):
         result = self.determine_result(avg_color)
         return result
